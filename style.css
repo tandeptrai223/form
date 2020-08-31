@@ -1,0 +1,53 @@
+.Background {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background: rgb(70,241,162);
+     background: linear-gradient(320deg, rgba(70,241,162,1) 0%, rgba(49,205,204,1) 25%, rgba(160,177,250,1) 49%, rgba(44,148,143,1) 100%);
+     
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: snow ;
+} 
+
+.Background > form {
+    padding: 50px 200px;
+
+}
+.email, .password, .sign-in,.more{
+    width: 100%;
+}
+.email >input, .password >input {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    margin: 10px 0px;
+    background-color: skyblue;
+    border-radius: 5px;
+    border: none;
+}
+.more{
+    display: flex;
+}
+.sign-in>button, .more>button{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    box-shadow: 2px gray;
+}
+.center{
+    text-align: center;
+}
+.more button{
+    background-color: aqua;
+}
+a{
+    text-decoration:none;
+    color: azure;
+
+}
